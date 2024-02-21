@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 60%;
+    background-color: antiquewhite;
+    margin-left: 20%;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    main {
+      width: 100%;
+      background-color: azure;
+      margin-left: 0px;
+    }
+    header h1 {
+        font-size: medium;
+        color: brown;
+    }
+}
+/* 반응형. 사이즈 줄였을때 */
+
+
+
+
+
+
+
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkred;
+}
+
+nav a:hover, nav li:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+/* nav a:visited {
+    background-color: green;
+} 
+li에는 visited 없음*/
+
+
+header>h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* 자동줄바꿈 */
+    margin: 20px;
+    padding: 10px;
+    justify-content: right;
+    list-style: none;
+}
+
+nav li { 
+    margin: 10px;
+    padding: 10px;
+    background-color: darksalmon;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+article {
+    margin: 40px;
+    padding: 20px;
+}
+
+article p {
+    margin: 20px;
+}
+
+
+
+
+
+
+img {
+    border-radius: 50%;
+}
+
+
+
+
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 5px dotted black;
+}
+
+section div {
+    display: flex;
+    margin-top: 20px;
+}
+
+section p {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color:white;
+    list-style: none;
+    padding: 40px;
+}
+
+footer li {
+    list-style: none;
+}
+
+
+
+
