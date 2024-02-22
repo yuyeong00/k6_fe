@@ -2,14 +2,14 @@ button {
     width: 100px;
     height: 40px;
     background-color: rgb(219, 180, 255);
-    color: rgb(212, 168, 168);
+    color: rgb(243, 91, 91);
     border: 0px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
-button :hover {
+button:hover {
     background-color: black;
     color: white;
     cursor: pointer;
