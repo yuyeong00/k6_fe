@@ -53,7 +53,7 @@ article li:hover {
     background-color: rgb(255, 215, 221);
 }
 
-article a {
+article a, header a {
     color: navy;
     text-decoration: none;
 }
