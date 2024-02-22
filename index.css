@@ -28,7 +28,6 @@ article {
 
 article ul {
     width: 70%;
-    background-color: rgb(187, 211, 255);
     margin-top: 20px;
     list-style: none;
 }
@@ -37,7 +36,20 @@ article ul {
 article li {
     display: flex;
     align-items: center;
+    text-align: center;
     height: 40px;
-    border: 2px dotted black;
+    border: 5px dashed rgb(90, 90, 90);
+    margin: 10px;
     padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(196, 217, 255);
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
 }
