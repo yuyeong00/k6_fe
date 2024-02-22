@@ -37,7 +37,8 @@ article ul {
 article li {
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
     height: 40px;
     border: 5px dashed rgb(90, 90, 90);
     margin: 10px;
