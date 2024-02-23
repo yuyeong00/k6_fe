@@ -19,3 +19,11 @@ h2 {
     font-size: medium;
     color: blue;
 }
+
+.btGroup {
+    background-color: antiquewhite;
+}
+
+#btArea2 button{
+    background-color: rgb(156, 219, 156);
+}
