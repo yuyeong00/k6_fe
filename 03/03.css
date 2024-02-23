@@ -6,7 +6,7 @@ button {
     border: 0px;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 button:hover {
@@ -26,4 +26,12 @@ h2 {
 
 #btArea2 button{
     background-color: rgb(156, 219, 156);
+}
+
+#bt3 {
+    color: rgb(205, 74, 209);
+}
+
+section div {
+    border-radius: 10px;
 }

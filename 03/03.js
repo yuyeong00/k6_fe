@@ -28,7 +28,7 @@ const handleClick = (n) => {
     else msg = "<h2>와와</h2>";
 
 
-    document.querySelector("#msgArea").innerHTML = `<h2>버튼 ${n} 눌러졌습니다.</h2>`;
+    document.querySelector("#msgArea").innerHTML = `<h2>버튼 ${n} 선택됨.</h2>`;
     
     // document.querySelector("#msgArea").innerHTML = msg;
 }
@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
     //버튼 생성
     const bt3 = document.createElement("button") ;
     const bt3Txt = document.createTextNode("버튼3") ;   //버튼에 텍스트
+    
+    bt3.setAttribute("id", "bt3"); //속성 설정
+//  bt3.getAttribute(); //속성 가져오기
     bt3.appendChild(bt3Txt) ;   //자식요소 추가
 
     //원하는 위치에 버튼 추가하기
@@ -51,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
         handleClick(3);
     })
 
-
+    //버튼4추가하기
     const bt4 = document.createElement("button");
     const bt4Txt = document.createTextNode("버튼4")
     bt4.appendChild(bt4Txt) ;

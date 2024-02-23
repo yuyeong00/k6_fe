@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 60%;
+    margin: 0 20%;
+    background-color: azure;
+}
+
+
+@media only screen and (max-width: 768px) {
+    main {
+      width: 100%;
+      background-color: azure;
+      margin-left: 0px;
+    }
+}
+
+
+
+header h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+header ul {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+header li {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(46, 145, 67);
+    display: inline-flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid gainsboro;
+}
+
+header a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(173, 221, 205);
+    border-radius: 30px;
+}
+
+article h1, p {
+    margin: 20px;
+
+}
+
+
+
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+section > div {
+    margin-top: 20px;
+}
+
+#ss1, #ss2 {
+    background-color: rgb(255, 231, 235);
+}
+
+section p {
+    margin-left: 30px;
+}
+
+.imgp {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+img {
+    border-radius: 20%;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+footer li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+/* #s2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+button {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    background-color: rgb(45, 93, 155);
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+#butmsg {
+    display: flex;
+}
+
+#butmsg div {
+    align-items: center;
+    background-color: peachpuff;
+}
+
+#butmsg p {
+    text-align: center;
+}
