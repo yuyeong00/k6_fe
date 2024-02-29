@@ -126,14 +126,13 @@ footer li {
 
 
 
-/* #s2 div {
+#s2 div {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-} */
+}
 
-button {
+#s2 button {
     margin: 20px;
     padding: 20px;
     border-radius: 30px;
@@ -152,9 +151,47 @@ button {
 
 #butmsg div {
     align-items: center;
-    background-color: peachpuff;
+    background-color: rgb(255, 255, 255);
 }
 
 #butmsg p {
     text-align: center;
+}
+
+
+
+#s3 div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#s3 img {
+    margin: 10px;
+    width: 100px;
+}
+
+#s3 button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: blanchedalmond;
+    color: rgb(59, 59, 59);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#s4 .row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#s4 input, option {
+    width: 40%;
 }

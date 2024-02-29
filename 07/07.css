@@ -1,0 +1,54 @@
+section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid pink;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 20px;
+}
+
+.row > div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    height: 20px;
+    margin: 0 20px;
+}
+
+select {
+    display: inline-flex;
+    width: 90%;
+    height: 40px;
+}
+
+input[type=number] {
+    display: inline-flex;
+    width: 90%;
+    height: 30px;
+    background-color: blanchedalmond;
+    text-align: end;
+}
+
+label {
+    font-size: large;
+    font-weight: bolder;
+    text-align: end;
+}
+
+#txt2 {
+    background-color: beige;
+}
+
+select {
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./06.css" />
+    <script src="./06.js"></script>
+    <title>K-디지털6기</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>K-digital 6기 자바스크립트</h1>
+        <div><a href="../index.html">홈</a></div>
+      </header>
+      <section>
+        <h1>자바스크립트 주사위게임</h1>
+        <div>
+          <div>
+            <p>computer</p>
+            <img src="./img/1.png" id="img1" />
+          </div>
+          <div>
+            <p>user</p>
+            <img src="./img/3.png" id="img2" />
+          </div>
+        </div>
+        <div>
+          <button onclick="handleClick(1)">1</button>
+          <!-- <button onclick="handleClick">주사위를 던져 주세요</button> -->
+          <button onclick="handleClick(2)">2</button>
+          <button onclick="handleClick(3)">3</button>
+          <button onclick="handleClick(4)">4</button>
+          <button onclick="handleClick(5)">5</button>
+          <button onclick="handleClick(6)">6</button>
+        </div>
+        <div id="msg">
+          <p>메세지영역</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

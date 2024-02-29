@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./my.css">
+  <script src="./my.js"></script>
   <title>복습</title>
 </head>
 <body>
@@ -13,16 +14,17 @@
         <br/>SW 개발자 양성과정</h1>
       <nav>
         <ul>
-          <li><a href="#s1">CSS 연습</a></li>
-          <li><a href="#s2">js 버튼</a></li>
-          <li><a href="#">js 주사위</a></li>
+          <li><a href="#s1">1. CSS 연습</a></li>
+          <li><a href="#s2">2. 버튼</a></li>
+          <li><a href="#s3">3. 주사위</a></li>
+          <li><a href="#s4">4. 단위환산</a></li>
           <li><a href="../index.html">홈</a></li>
         </ul>
       </nav>
     </header>
     
     <article id="s1">
-      <h1>CSS 연습</h1>
+      <h1>1. CSS 연습</h1>
       <p>웹에서 사용자에게 시각적으로 보여지는 부분을 의미한다. 프론트엔드쪽에서는 주로 HTML, CSS, 자바스크립트가 쓰이며, 요즘은 페이스북에서 개발한 자바스크립트에서 파생된 싱글 페이지 애플리케이션 형태의 리액트가 많이 사용된다.</p>
     </article>
     
@@ -42,12 +44,55 @@
     </section>
 
     <section id="s2">
-      <h2>버튼 만들기</h2>
+      <h2>2. 버튼 만들기</h2>
       <div id="butmsg">
-        <button onclick="">
+        <div>
+          <button onclick="handleClick()">
           버튼1
-        </button>
-        <div><p>메세지영역</p></div>
+          </button>
+        </div>
+        <div id="msg">
+          <p>메세지영역</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="s3">
+      <h2>3. 주사위</h2>
+      <div>
+        <img src="../05/img/1.png" alt="">
+        <img src="../05/img/3.png" alt="">
+      </div>
+      <div>
+        <button>주사위 굴리기</button>
+      </div>
+    </section>
+
+    <section id="s4">
+      <h2>4. 단위환산</h2>
+      <div>
+        <div class="row">
+          <div>
+            <select name="sel1" id="sel1">
+              <option value="" selected>센티미터(cm)</option>
+              <option value="">마일(mile)</option>
+            </select>
+          </div>
+          <div>
+            <select name="sel2" id="sel2">
+              <option value="">센티미터(cm)</option>
+              <option value="" selected>마일(mile)</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <input type="number">
+          </div>
+          <div>
+            <input type="number" readonly>
+          </div>
+        </div>
       </div>
     </section>
 
