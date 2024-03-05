@@ -1,0 +1,88 @@
+section {
+    height: 600px;
+}
+
+section>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+}
+
+img {
+    border: 0px;
+}
+
+input[type=number] {
+    display: inline-flex;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+}
+
+button {
+    border-radius: 30px;
+    border: 0px;
+    background-color: rgb(150, 150, 242);
+    color: white;
+    width: 70px;
+    height: 50px;
+    font-size: large;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 227, 255);
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+@keyframes cursor-blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .cursor-blink {
+    animation: cursor-blink 1s infinite;
+    border: 3px dotted black;
+    color: midnightblue;
+    font-size: 40px;
+  }
+
+/* @keyframes cursor-blink {
+    0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+  }
+    
+    .cursor-blink::after {
+      content: '|';
+      display: inline-block;
+      animation: cursor-blink 1s infinite;
+  } */
