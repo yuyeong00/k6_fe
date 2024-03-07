@@ -1,0 +1,51 @@
+section > h1 {
+    border: 2px solid rgb(61, 158, 187);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+section>div {
+    border: 0px;
+}
+
+#num {
+    border: 1px solid darkblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: navy;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  button { 
+    height: 70px;
+    width: 100px;
+    background-color:rgb(78, 91, 232);
+    color: white;
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  
+  button:hover {
+    background-color: rgb(52, 53, 107);
+    cursor: pointer;
+  }
